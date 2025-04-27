@@ -20,7 +20,7 @@ int main()             // built-in function (main) from where execution starts
         if(marks>highest)
         {
             sechighest = highest;
-highest = marks;
+highest = marks
         }
         else if(marks>sechighest && marks<highest)
         {
