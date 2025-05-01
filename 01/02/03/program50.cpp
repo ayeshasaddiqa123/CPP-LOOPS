@@ -4,6 +4,7 @@
 using namespace std ;   //use standard namespace
 int main()             // built-in function (main) from where execution starts
 {
+    
     // outer loop for rows
     for (int i=5;i>=1;i--)
     {
@@ -14,4 +15,6 @@ int main()             // built-in function (main) from where execution starts
     }
 
     return 0; // return 0 to indicate successful completion of the program
+
+
 }
