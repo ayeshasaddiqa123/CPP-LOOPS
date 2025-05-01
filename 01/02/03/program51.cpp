@@ -4,6 +4,7 @@
 using namespace std ;   //use standard namespace
 int main()             // built-in function (main) from where execution starts
 {
+    
     // variable initialization
     int m=0;
 
@@ -18,4 +19,5 @@ int main()             // built-in function (main) from where execution starts
     }
 
     return 0; // return 0 to indicate successful
+
 }
