@@ -1,7 +1,5 @@
 // program 48
 
-// program 6
-
 #include<iostream>    //include the iostream library (a preprocessor directive)
 using namespace std ;   //use standard namespace
 int main()             // built-in function (main) from where execution starts

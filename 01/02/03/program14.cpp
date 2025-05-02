@@ -1,9 +1,8 @@
-// prgram 14
-
 #include<iostream>    //include the iostream library (a preprocessor directive)
 #include<math.h>   //include the math library (a preprocessor directive)
 using namespace std ;   //use standard namespace
 int main()             // built-in function (main) from where execution starts
+
 
 {
     // varaibles declaration
