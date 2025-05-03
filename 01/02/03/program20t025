@@ -1,0 +1,106 @@
+//PROGRAM 20
+
+#include<iostream>    //include the iostream library (a preprocessor directive)
+using namespace std ;   //use standard namespace
+int main()             // built-in function (main) from where execution starts
+
+{
+	float sum=0.0;
+	for(float i=1.0;i<=99.0;i++) {
+		sum=sum+(i/i+1.0);
+}
+cout<<"Sum of seies is : "<<sum;
+return 0;
+}
+
+//PROGRAM 21
+
+#include<iostream>    //include the iostream library (a preprocessor directive)
+using namespace std ;   //use standard namespace
+int main()             // built-in function (main) from where execution starts
+{
+	for(int i=1024;i>=1;i=i/2) {
+		cout<<i<<"\t";
+}
+return 0;
+}
+
+
+//PROGRAM 22
+
+#include<iostream>    //include the iostream library (a preprocessor directive)
+using namespace std ;   //use standard namespace
+int main()             // built-in function (main) from where execution starts
+{
+	for(int i=1;i<=200;i*=3) {
+		cout<<i<<"\t";
+}
+return 0 ; //return 0 to operating system
+}
+
+
+
+
+
+//PROGRAM 23
+#include<iostream>    //include the iostream library (a preprocessor directive)
+using namespace std ;   //use standard namespace
+int main()             // built-in function (main) from where execution starts
+{
+      int n=8;
+      int diff=4;
+	int step=0;
+	
+ while(n<=100) {
+ 	cout<<n<<"\t";
+	if(step%3==0)
+	diff=4;
+	else if(step%3==1)
+	diff=5;
+	else
+	diff=7;
+	
+	n=n+diff;
+	step++;
+}
+	
+return 0 ; //return 0 to operating system
+}
+
+
+
+
+//program 24
+
+#include<iostream>    //include the iostream library (a preprocessor directive)
+using namespace std ;   //use standard namespace
+int main()             // built-in function (main) from where execution starts
+{
+      int fact=1;
+float sum=0.0;
+	
+ for(int i=1;i<=7;i++) {
+ 	fact=fact*i;
+ 	sum+=double(i)/fact;
+}
+cout<<"The sum is : "<<sum;
+return 0 ; //return 0 to operating system
+}
+
+
+
+//Program 25
+#include<iostream>    //include the iostream library (a preprocessor directive)
+using namespace std ;   //use standard namespace
+int main()             // built-in function (main) from where execution starts
+{
+    
+int sum=0;
+	
+ for(int i=30;i<=60;i+=3) {
+ 	
+ 	sum+=i;
+}
+cout<<"The sum is : "<<sum;
+return 0 ; //return 0 to operating system
+}
