@@ -152,3 +152,53 @@ int main()  //main function from where exection starts
 }
 return 0; //return 0 to operating system
 }
+
+
+
+// program 72
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	int m=0;      // variable declaration
+	
+	for(int i=5;i>=1;i--) { // loop for rows
+		m=1;
+		int n=2;
+		
+		for(int j=1;j<=i;j++) {// loop for columns
+			
+			if(i%2==0 ) // check if row number is even
+				 
+			   {
+				 cout<<" "<<m*m;
+				 m=m+2;	}
+			else       // if row number is odd
+			{
+				if(j==1)
+				cout<<" "<<m;
+				else
+				{
+				
+				cout<<" "<<n*n;
+				n=n+2;
+			}
+				
+				 }	 			 		
+			
+}
+cout<<endl;
+
+}
+
+   return 0; //return 0 to operating system
+}
+/*
+output:
+ 1 4 16 36 64
+ 1 9 25 49
+ 1 4 16
+ 1 9
+ 1
+  
+*/
