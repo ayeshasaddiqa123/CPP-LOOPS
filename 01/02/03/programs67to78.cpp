@@ -202,3 +202,131 @@ output:
  1
   
 */
+
+
+
+
+
+
+// program 73
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	for(int i=4;i>=1;i--) {
+		char ch='A';
+		for(int j=1;j<=i;j++) {
+			cout<<ch;
+			ch=ch+2;
+			
+}
+cout<<endl;
+
+}
+
+   return 0; //return 0 to operating system
+}
+
+/*
+ACEG
+ACE
+AC
+A
+*/
+
+
+
+
+
+// program 74
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	float sum=1.0;
+	int limit;
+	cout<<"Enter a limit :";
+	cin >> limit;
+	
+	for(int i=2;i<=limit;i++) {
+		if ( i%2==0 )
+		sum=sum-1.0/i;
+		
+			
+	else
+		sum=sum+1.0/i;
+		
+		
+}
+cout<< " The sum of series is : "<<sum;
+
+   return 0; //return 0 to operating system
+}
+/*
+Enter a limit :3
+ The sum of series is : 0.83333
+*/
+
+
+
+
+
+// program 75
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	
+	int rows;
+	cout<<"Enter number of rows :";
+	cin >> rows;
+		cout<<"*"<<endl;
+    for(int i=1;i<=rows;i++) {
+    	
+    	cout<<"*";
+    	for (int j=1;j<=i;j++){
+    		cout<<j;
+			}
+	for (int j=i-1;j>=1;j--){
+		cout<<j;}
+    	cout<<"*";
+    	cout<<endl;
+    	
+}
+ for(int i=rows-1;i>=1;i--) {
+    	
+    	cout<<"*";
+    	for (int j=1;j<=i;j++){
+    		cout<<j;
+			}
+	for (int j=i-1;j>=1;j--){
+		cout<<j;}
+    	cout<<"*";
+    	cout<<endl;
+
+}
+	cout<<"*";
+
+   return 0; //return 0 to operating system
+}
+
+/*
+Enter number of rows :5
+*
+*1*
+*121*
+*12321*
+*1234321*
+*123454321*
+*1234321*
+*12321*
+*121*
+*1*
+*
+*/
+
+
+
+
