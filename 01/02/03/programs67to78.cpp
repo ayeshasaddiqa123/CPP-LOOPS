@@ -330,3 +330,73 @@ Enter number of rows :5
 
 
 
+// program 76
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	for(int i=5;i>=1;i--) {
+		for(int j=5;j>=1;j--) {
+			
+			if(i==5 || j==1 || j==i )
+			cout<<"*";
+			else
+			cout<<" ";
+}
+cout<<endl;
+
+
+}
+
+   return 0; //return 0 to operating system
+}
+
+/*
+*****
+ *  *
+  * *
+   **
+    *
+*/
+
+
+
+
+
+// program 77
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	for(int i=1;i<=5;i++) {
+		for(int j=1;j<=5;j++) {
+			
+			if(i==5|| j==1 || j==i )
+			cout<<"*";
+			else
+			cout<<" ";
+}
+cout<<endl;
+
+
+}
+
+   return 0; //return 0 to operating system
+}
+
+/*
+*
+**
+* *
+*  *
+*****
+*/
+
+
+
+
+
+
+
+
