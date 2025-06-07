@@ -3,4 +3,4 @@
 
 page : 217
 
-Best choice of book  for students learning in compter science semesteer first.
+Best choice of book  for students learning in compter science semester first.
